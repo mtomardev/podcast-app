@@ -1,0 +1,22 @@
+.custom-input{
+    display: block; /* Ensures the label takes up the full width label is inline elements */
+    background-color: var(--theme);
+    color: var(--white);
+    border: 2px solid var(--purple-grey);
+    padding: 1rem;
+    border-radius: 0.35rem;
+    font-size: 1rem;
+    width: 70vw !important;
+    font-weight: 500;
+    margin: 1rem !important;
+    cursor: pointer;
+}
+
+.custom-input:focus{
+    outline: none;
+    border-color: var(--white);
+}
+
+.custom-input::placeholder{
+    color: var(--purple-grey);
+}
